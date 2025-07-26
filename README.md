@@ -46,8 +46,10 @@ python therapeutic_target_agent.py "Find inhibitors for BACE1, MAOB and AChE bet
 
 ### Advanced Options
 ```bash
-# Use different LLM model
-python therapeutic_target_agent.py "your query" --model gpt-4o
+# Use different LLM models
+python therapeutic_target_agent.py "your query" --model gpt-4o           # Most capable
+python therapeutic_target_agent.py "your query" --model gpt-4o-mini     # Default, fast
+python therapeutic_target_agent.py "your query" --model gpt-3.5-turbo   # Cost-effective
 ```
 
 ## Output
