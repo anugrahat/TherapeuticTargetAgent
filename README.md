@@ -6,7 +6,7 @@ A multi-tool agent that queries biological databases to find therapeutic targets
 
 1. **Set up environment:**
    ```bash
-   cd /home/anugraha/agent
+   cd /home/agent
    python -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
