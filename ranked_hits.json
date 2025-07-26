@@ -1,0 +1,398 @@
+{
+  "raw_output": "Here are the inhibitors for the targets EGFR, JAK2, and CDK9 with IC50 values under 100 nM:\n\n### EGFR Inhibitors\n1. **Unknown**\n   - **ChEMBL ID:** CHEMBL53711\n   - **IC50:** 0.006 nM\n   - **Assay Type:** IC50\n\n2. **Unknown**\n   - **ChEMBL ID:** CHEMBL434827\n   - **IC50:** 0.73 nM\n   - **Assay Type:** IC50\n\n3. **CANERTINIB DIHYDROCHLORIDE**\n   - **ChEMBL ID:** CHEMBL545315\n   - **IC50:** 1.5 nM\n   - **Assay Type:** IC50\n\n4. **Unknown**\n   - **ChEMBL ID:** CHEMBL344486\n   - **IC50:** 2.7 nM\n   - **Assay Type:** IC50\n\n5. **Unknown**\n   - **ChEMBL ID:** CHEMBL138691\n   - **IC50:** 4.2 nM\n   - **Assay Type:** IC50\n\n### JAK2 Inhibitors\n1. **Unknown**\n   - **ChEMBL ID:** CHEMBL272424\n   - **IC50:** 0.2 nM\n   - **Assay Type:** IC50\n\n2. **Unknown**\n   - **ChEMBL ID:** CHEMBL584052\n   - **IC50:** 1.0 nM\n   - **Assay Type:** Ki\n\n3. **Unknown**\n   - **ChEMBL ID:** CHEMBL576257\n   - **IC50:** 3.0 nM\n   - **Assay Type:** IC50\n\n4. **STAUROSPORINE**\n   - **ChEMBL ID:** CHEMBL388978\n   - **IC50:** 4.7 nM\n   - **Assay Type:** IC50\n\n5. **Unknown**\n   - **ChEMBL ID:** CHEMBL568815\n   - **IC50:** 7.8 nM\n   - **Assay Type:** IC50\n\n### CDK9 Inhibitors\n1. **Unknown**\n   - **ChEMBL ID:** CHEMBL422897\n   - **IC50:** 0.631 nM\n   - **Assay Type:** Ki\n\n2. **Unknown**\n   - **ChEMBL ID:** CHEMBL3673434\n   - **IC50:** 3.0 nM\n   - **Assay Type:** IC50\n\n3. **Unknown**\n   - **ChEMBL ID:** CHEMBL1968930\n   - **IC50:** 5.012 nM\n   - **Assay Type:** Ki\n\n4. **BMS-387032**\n   - **ChEMBL ID:** CHEMBL296468\n   - **IC50:** 10.0 nM\n   - **Assay Type:** Ki\n\n5. **Unknown**\n   - **ChEMBL ID:** CHEMBL244378\n   - **IC50:** 15.85 nM\n   - **Assay Type:** Ki\n\n### Protein Structures\n- **EGFR:** 10 structures found (e.g., 2XKN, 2Z4Q, 8JFQ)\n- **JAK2:** 10 structures found (e.g., 7F7W, 8C08, 8C09)\n- **CDK9:** 10 structures found (e.g., 8K5R, 3BLH, 6W9E)\n\nIf you need further filtering or specific details, please let me know!",
+  "targets": [
+    {
+      "gene_symbol": "EGFR",
+      "protein_name": "EGFR protein",
+      "inhibitors": [
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL53711",
+          "ic50_nm": "0.006",
+          "assay_type": "IC50",
+          "activity_id": 126489,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL434827",
+          "ic50_nm": "0.73",
+          "assay_type": "IC50",
+          "activity_id": 117228,
+          "pdb_structures": []
+        },
+        {
+          "name": "CANERTINIB DIHYDROCHLORIDE",
+          "chembl_id": "CHEMBL545315",
+          "ic50_nm": "1.5",
+          "assay_type": "IC50",
+          "activity_id": 110479,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL344486",
+          "ic50_nm": "2.7",
+          "assay_type": "IC50",
+          "activity_id": 122056,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL138691",
+          "ic50_nm": "4.2",
+          "assay_type": "IC50",
+          "activity_id": 105738,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL93464",
+          "ic50_nm": "8.7",
+          "assay_type": "IC50",
+          "activity_id": 120875,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL138940",
+          "ic50_nm": "14.0",
+          "assay_type": "IC50",
+          "activity_id": 122060,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL302552",
+          "ic50_nm": "22.0",
+          "assay_type": "IC50",
+          "activity_id": 46694,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL69629",
+          "ic50_nm": "40.0",
+          "assay_type": "IC50",
+          "activity_id": 50671,
+          "pdb_structures": []
+        },
+        {
+          "name": "CANERTINIB",
+          "chembl_id": "CHEMBL31965",
+          "ic50_nm": "74.0",
+          "assay_type": "IC50",
+          "activity_id": 121735,
+          "pdb_structures": []
+        }
+      ],
+      "pdb_ids": [
+        "2XKN",
+        "2Z4Q",
+        "8JFQ",
+        "1WT5",
+        "7OM5",
+        "3P0V",
+        "4KRN",
+        "3G5Z",
+        "3CGU",
+        "3G5X"
+      ],
+      "pubmed_evidence": [
+        "PMC12288231",
+        "40667612",
+        "40662731",
+        "40706272",
+        "40664444"
+      ],
+      "papers": [
+        {
+          "pmid": "PMC12288231",
+          "title": "EGFRAP: a predictive machine learning model for assessing small molecule activity against the epidermal growth factor receptor",
+          "abstract": ""
+        },
+        {
+          "pmid": "40667612",
+          "title": "Overcoming triple mutant EGFR-tyrosine kinase barriers in the therapeutics of non-small cell lung cancer: a patent review on fourth-generation inhibitors (2017-2024).",
+          "abstract": "<h4>Introduction</h4>Non-small cell lung cancer (NSCLC) remains a leading cause of cancer mortality, with epidermal growth factor receptor (EGFR) mutations being the primary driver of tumor progression. This review highlights the significance of fourth-generation EGFR tyrosine kinase inhibitors (EGFR-TKIs) in addressing acquired resistance mechanisms, such as the C797S mutation, which compromises the efficacy of third-generation inhibitors like Osimertinib and explores their potential to revolutionize NSCLC treatment through enhanced molecular specificity.<h4>Areas covered</h4>This review covers the latest progress in patented fourth-generation EGFR-TKIs and their clinical trial status for the treatment of NSCLC from 2017 to the present.<h4>Expert opinion</h4>Osimertinib, a third-generation EGFR inhibitor, revolutionized treatment for T790M mutations but is limited by resistance from C797S mutations. Fourth-generation EGFR inhibitors, incorporating scaffolds like aminopyrimidine and quinazoline, are designed to selectively target resistant EGFR variants, including L858R/T790M/C797S. Preclinical trials highlight the potential of sulfonyl and phosphine oxide-based compounds for their potency, selectivity, and favorable pharmacokinetics. Promising clinical trials with inhibitors like BDTX-1535, JIN-A02, and HS-10504 could redefine NSCLC treatment, with future success likely relying on innovative strategies, such as combination therapies, to combat resistance and enhance efficacy."
+        },
+        {
+          "pmid": "40662731",
+          "title": "Evaluation of race-free eGFR equations in individuals of different ethnicity.",
+          "abstract": "<h4>Background</h4>Glomerular filtration rate (eGFR) derived from serum creatinine (eGFR<sub>cr</sub>), cystatin C (eGFR<sub>cys</sub>), or both (eGFR<sub>cr-cys</sub>) by race-free equations are recommended staging chronic kidney disease (CKD). The current study aimed to compare these race-free eGFR equations for screening for low-grade CKD in Blacks and non-Blacks and to evaluate their association with mortality.<h4>Methods</h4>Race-free eGFR equations were evaluated in four studies with specific inclusion criteria based on the original research goals: African-PREDICT (341/380 healthy Black/White South Africans), FLEMENGHO (709 White community-dwelling Flemish), NHANES (1760/7931 Black and non-Black adult Americans), and 401 Black African patients hospitalised in Mbuji Mayi, Democratic Republic of Congo. The intraclass correlation coefficient and Bland and Altman statistics were used to assess consistency between eGFR equations and multivariable logistic or Cox regression to evaluate their association with mortality.<h4>Results</h4>Intraindividual discordance between eGFRs was larger in Black than non-Black NHANES and African-PREDICT participants. In NHANES, eGFR<sub>cr-cys</sub> was greater than eGFR<sub>cr</sub>, but smaller than eGFR<sub>cys</sub>, and replacing eGFR<sub>cr-cys</sub> by eGFR<sub>cr</sub> moved 25% Blacks and 15% non-Blacks to a higher (worse) eGFR KDIGO stage. In African-PREDICT and FLEMENGO, half of the measured creatinine clearance to eGFR ratios fell outside the expected 1.1-1.2 band. In NHANES, multivariable hazard ratios for total and cardiovascular mortality in relation to CKD grade were all lower than unity for grade-1 CKD and greater than unity for grade \u22653 (<i>p</i>\u2009<\u20090.0001) without any racial difference (0.11\u2264<i>p</i>\u2009\u2264\u20090.98). These NHANES findings were consistent, if CKD stage was replaced by eGFR and in subgroup analyses. Whereas eGFR<sub>cys</sub> and eGFR<sub>cr-cys</sub> refined models, eGFR<sub>cr</sub> did not.<h4>Conclusions</h4>The NHANES mortality outcomes support the use of eGFR<sub>cys</sub> and eGFR<sub>cr-cys</sub>. However, large intraindividual variability between eGFR estimates may lead to KDIGO eGFR stage misclassification and calls for caution in the opportunistic or systematic screening for CKD in asymptomatic individuals with prevention as objective."
+        }
+      ],
+      "score": 4.0
+    },
+    {
+      "gene_symbol": "JAK2",
+      "protein_name": "JAK2 protein",
+      "inhibitors": [
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL272424",
+          "ic50_nm": "0.2",
+          "assay_type": "IC50",
+          "activity_id": 2089235,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL584052",
+          "ic50_nm": "1.0",
+          "assay_type": "Ki",
+          "activity_id": 2948184,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL576257",
+          "ic50_nm": "3.0",
+          "assay_type": "IC50",
+          "activity_id": 2981375,
+          "pdb_structures": []
+        },
+        {
+          "name": "STAUROSPORINE",
+          "chembl_id": "CHEMBL388978",
+          "ic50_nm": "4.7",
+          "assay_type": "IC50",
+          "activity_id": 2511590,
+          "pdb_structures": [
+            "8E4T",
+            "4MVF",
+            "5WNL",
+            "4FR4",
+            "2YN8"
+          ]
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL568815",
+          "ic50_nm": "7.8",
+          "assay_type": "IC50",
+          "activity_id": 2981445,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL578201",
+          "ic50_nm": "11.0",
+          "assay_type": "IC50",
+          "activity_id": 2981372,
+          "pdb_structures": []
+        },
+        {
+          "name": "TOFACITINIB",
+          "chembl_id": "CHEMBL221959",
+          "ic50_nm": "20.0",
+          "assay_type": "IC50",
+          "activity_id": 2595777,
+          "pdb_structures": [
+            "4OTI",
+            "3EYG",
+            "3LXN",
+            "3LXK",
+            "3FUP"
+          ]
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL221378",
+          "ic50_nm": "28.0",
+          "assay_type": "IC50",
+          "activity_id": 1807615,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL220585",
+          "ic50_nm": "51.0",
+          "assay_type": "IC50",
+          "activity_id": 1807635,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL570462",
+          "ic50_nm": "70.0",
+          "assay_type": "IC50",
+          "activity_id": 2981425,
+          "pdb_structures": []
+        }
+      ],
+      "pdb_ids": [
+        "7F7W",
+        "8C08",
+        "8C09",
+        "8C0A",
+        "7R8W",
+        "3FUP",
+        "4F08",
+        "6VN8",
+        "6VNE",
+        "3IO7"
+      ],
+      "pubmed_evidence": [
+        "40681596",
+        "40692430",
+        "40603642",
+        "40601823",
+        "40605170"
+      ],
+      "papers": [
+        {
+          "pmid": "40681596",
+          "title": "Clinical, morphological and genetic characteristics of patients with concurrent presence of JAK2 V617F and BCR::ABL1.",
+          "abstract": "Diagnosis and treatment of chronic myeloid neoplasms with two concurrently present driver mutations is challenging. We report on 10 JAK2 V617F<sup>pos</sup>/BCR::ABL1<sup>pos</sup> patients in whom both mutations were identified simultaneously in 5/10 (50%) patients or in whom BCR::ABL1 appeared a median of 14 years after the primary diagnosis of JAK2 V617F<sup>pos</sup> myeloproliferative neoplasia (MPN) in the remaining 5 patients. Granulocyte-macrophage colony-forming unit (CFU-GM) analysis demonstrated subsequent acquisition of BCR::ABL1 in a pre-existing JAK2 V617F<sup>pos</sup> clone in 8/9 (89%) of evaluable patients. Despite the presence of JAK2 V617F in all patients, atypical BCR::ABL1 transcripts (e1a2/e19a2) in 3/9 (33%) patients and additional somatic mutations in 5/9 (56%) patients, molecular remission of BCR::ABL1 was achieved with different ABL1 TKIs (imatinib, n\u2009=\u20092, dasatinib, n\u2009=\u20092, nilotinib, n\u2009=\u20093) in 7/9 (78%) patients. During a total of 217 months of treatment, concomitant treatment with ABL1 TKIs and ruxolitinib did not affect dosing, efficacy or side effects. We conclude that (i) a second driver mutation might occur in chronic phase MPNs, (ii) clonality analyses largely support a common disease origin, and (iii) the dose, efficacy and safety of ABL1 inhibitors and ruxolitinib are not mutually affected by concurrent treatment."
+        },
+        {
+          "pmid": "40692430",
+          "title": "Correlation study of JAK2-STAT3 signaling pathway and CD4\u2009+\u2009T lymphocyte subset changes in CMPA children.",
+          "abstract": "BackgroundCow's milk protein allergy (CMPA) is a common food allergy in children, affecting growth, development, and quality of life. The pathogenesis involves immune dysregulation, particularly CD4+ T lymphocyte subsets, which play a key role in immune responses. The JAK2-STAT3 signaling pathway is critical for immune cell regulation, but its role in CMPA-associated immune changes remains unclear.MethodsA total of 103 CMPA patients and 100 healthy controls were enrolled. Peripheral blood samples were collected from patients before and after a 3-month CMPA avoidance diet. Flow cytometry, ELISA, western blotting, and qRT-PCR were used to analyze CD4+ T cell subsets (Th1, Th2, Th17), cytokine levels, and JAK2-STAT3 pathway activity.ResultsCMPA patients exhibited increased Th2 and Th17 proportions and reduced Th1 cells compared to controls. JAK2 and STAT3 phosphorylation levels were elevated, while SOCS1/SOCS3 expression was downregulated. After dietary avoidance, Th2 and Th17 proportions decreased, Th1 increased, and JAK2-STAT3 activation normalized. Pearson correlation analysis revealed positive associations between JAK2-STAT3 activation and Th2/Th17 proportions and a negative correlation with Th1.ConclusionsThe JAK2-STAT3 signaling pathway is abnormally activated in CMPA and correlates with CD4+ T lymphocyte subset imbalances. Targeting this pathway may offer therapeutic potential for CMPA management."
+        },
+        {
+          "pmid": "40603642",
+          "title": "TFF3 initiates gastric intestinal metaplasia by activating JAK2 and STAT3 under high salt conditions.",
+          "abstract": "The mechanism underlying the role of trefoil factor family 3 (TFF3) in intestinal metaplasia remains unclear. This study reveals the molecular mechanism by which TFF3, in the process of gastric mucosal epithelial cell intestinal metaplasia (IM) induced by high salt, activates the JAK2/STAT3/CDX2 pathway, providing a potential target for the occurrence of IM. An in vitro model of high salt-induced intestinal metaplasia was established using bioinformatics to screen the GEO dataset for significantly differentially expressed genes related to intestinal metaplasia. The gastric epithelial cell line GES-1 was cultured in high-salt medium, and changes in cell function and the expression of TFF3, JAK2, STAT3, and CDX2 were examined following TFF3 knockdown or overexpression. Subsequent experiments disrupted the TFF3-JAK2/STAT3-CDX2 pathway to assess its effects on gene expression and cell function. The expression of TFF3 is upregulated during intestinal metaplasia, which promotes cell proliferation and migration. TFF3 regulates the expression of JAK2, STAT3, and CDX2 and activates the JAK2/STAT3 pathway to induce CDX2 expression in gastric epithelial cells, leading to intestinal metaplasia. Functional assays revealed that the TFF3-JAK2/STAT3-CDX2 pathway enhances both cell proliferation and migration. TFF3 induces intestinal metaplasia in gastric epithelial cells through the JAK2/STAT3-CDX2 pathway, providing new insights into the underlying mechanism and therapeutic strategies for intestinal metaplasia."
+        }
+      ],
+      "score": 4.0
+    },
+    {
+      "gene_symbol": "CDK9",
+      "protein_name": "CDK9 protein",
+      "inhibitors": [
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL422897",
+          "ic50_nm": "0.631",
+          "assay_type": "Ki",
+          "activity_id": 9665833,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL3673434",
+          "ic50_nm": "3.0",
+          "assay_type": "IC50",
+          "activity_id": 16270823,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL1968930",
+          "ic50_nm": "5.012",
+          "assay_type": "Ki",
+          "activity_id": 9665879,
+          "pdb_structures": []
+        },
+        {
+          "name": "BMS-387032",
+          "chembl_id": "CHEMBL296468",
+          "ic50_nm": "10.0",
+          "assay_type": "Ki",
+          "activity_id": 9661765,
+          "pdb_structures": [
+            "5D1J"
+          ]
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL244378",
+          "ic50_nm": "15.85",
+          "assay_type": "Ki",
+          "activity_id": 9661617,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL402272",
+          "ic50_nm": "29.0",
+          "assay_type": "IC50",
+          "activity_id": 2250833,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL1997554",
+          "ic50_nm": "39.81",
+          "assay_type": "Ki",
+          "activity_id": 9661775,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL2005718",
+          "ic50_nm": "63.1",
+          "assay_type": "Ki",
+          "activity_id": 9661660,
+          "pdb_structures": []
+        },
+        {
+          "name": "Unknown",
+          "chembl_id": "CHEMBL1980329",
+          "ic50_nm": "79.43",
+          "assay_type": "Ki",
+          "activity_id": 9661627,
+          "pdb_structures": []
+        },
+        {
+          "name": "STAUROSPORINE",
+          "chembl_id": "CHEMBL388978",
+          "ic50_nm": "100.0",
+          "assay_type": "Kd",
+          "activity_id": 7596935,
+          "pdb_structures": [
+            "8E4T",
+            "4MVF",
+            "5WNL",
+            "4FR4",
+            "2YN8"
+          ]
+        }
+      ],
+      "pdb_ids": [
+        "8K5R",
+        "3BLH",
+        "6W9E",
+        "8I0L",
+        "3TN8",
+        "2IVX",
+        "6K7P",
+        "6KN5",
+        "6R80",
+        "3BLR"
+      ],
+      "pubmed_evidence": [
+        "40690748",
+        "40490668",
+        "40550430",
+        "40544651",
+        "40652725"
+      ],
+      "papers": [
+        {
+          "pmid": "40690748",
+          "title": "YX0798 Is a Highly Potent, Selective, and Orally Effective CDK9 Inhibitor for Treating Aggressive Lymphoma.",
+          "abstract": "Non-genetic transcription evolution has been increasingly explored and recognized to drive tumor cell progression and therapeutic resistance. As the regulation hub of transcription machinery, cyclin-dependent kinase 9 (CDK9) is the gatekeeper of RNA polymerase II (Pol II) transcription, and CDK9 dysfunction results in transcriptomic reprogramming and tumor cell progression. We recently reported that the HSP90-MYC-CDK9 network drives therapeutic resistance in mantle cell lymphoma (MCL) through transcriptomic reprogramming. We also showed that targeting CDK9 by AZD4573 and enitociclib is a safe and effective treatment in preclinical MCL models, supporting CDK9 as a valid therapeutic target for MCL. However, current CDK9 inhibitors (CDK9i) under therapeutic development have room for improvement due to limited target selectivity and oral bioavailability. To this end, YX0798 was discovered to be a novel CDK9i through structural optimization. YX0798 demonstrated remarkable target selectivity and high affinity in binding to CDK9. Furthermore, YX0798 showed good oral bioavailability. YX0798, when administrated orally (5 mg/kg, daily), led to an efficacious anti-tumor activity in vivo and showed the potency in overcoming therapeutic resistance. Mechanistically, YX0798 downregulated the short-lived oncoprotein c-MYC and pro-survival protein MCL-1 as a common mechanism of CDK9 inhibition. Moreover, YX0798 disrupted the cell cycle and resulted in transcriptomic reprogramming, eventually leading to cell death. Furthermore, YX0798 has the potential to be used in combination therapy with clinical agents to improve treatment efficacy. Together, these data demonstrate that YX0798 has oral bioavailability, exquisite selectivity, and anti-tumor potency that results from driving transcription reprogramming towards tumor cell killing."
+        },
+        {
+          "pmid": "40490668",
+          "title": "Integrated bioinformatics and functional studies identify CDK9 as a potential prognostic biomarker and therapeutic target in AML.",
+          "abstract": "<h4>Background</h4>Acute myeloid leukemia (AML) is a highly heterogeneous disease characterized by complex genetic and molecular features that contribute to poor prognosis and low cure rates. Therefore, identifying novel therapeutic targets is crucial for improving treatment efficacy and patient survival. This study investigated the potential role of cyclin-dependent kinase 9 (CDK9), a known regulator of gene expression, in AML pathogenesis and prognosis.<h4>Methods</h4>This study employed multiple bioinformatics approaches, including analysis of CDK9 expression across various cancers using the Tumor Immune Estimation Resource (TIMER2.0) database and further investigation of its expression and prognostic significance in AML using data from the Cancer Genome Atlas (TCGA) and Genotype-Tissue Expression (GTEx) databases. Survival analysis and Cox regression analysis were used to assess the association between CDK9 expression and patient prognosis. Gene Ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Gene Set Enrichment Analysis (GSEA) were performed to elucidate the pathways and biological processes influenced by CDK9. Furthermore, the relationship between CDK9 expression and tumor immune infiltration was evaluated, and a protein-protein interaction (PPI) network was constructed. In vitro experiments, including Western blotting, CCK-8 assays, and flow cytometry, were conducted to validate the bioinformatics findings.<h4>Results</h4>Bioinformatics analysis revealed significantly elevated CDK9 expression in AML samples, which correlated with poor patient prognosis. Functional enrichment analysis indicated that CDK9 is involved in key pathways related to cell proliferation, differentiation, and the tumor microenvironment. Moreover, the study observed a strong correlation between CDK9 expression and altered immune cell infiltration, suggesting a potential role in immune evasion. In vitro experiments confirmed that CDK9 overexpression promoted AML cell proliferation and inhibited apoptosis. Additionally, CDK9 showed a strong correlation with epithelial-mesenchymal transition (EMT)-related proteins, suggesting a potential role in AML progression and the EMT process.<h4>Conclusions</h4>This study demonstrates that CDK9 is a potential prognostic biomarker and therapeutic target in AML. Its involvement in multiple key pathways during AML development and its influence on the tumor immune microenvironment support further exploration of CDK9-targeted therapies to improve AML treatment outcomes."
+        },
+        {
+          "pmid": "40550430",
+          "title": "Dual CDK6 and CDK9 inhibitors as anti-psoriasis agents: Design, synthesis, and anti-inflammatory activity.",
+          "abstract": "Skin hyperplasia and aberrant secretion of inflammatory factors are typical features of psoriasis. Given the cooperative role of CDK6-mediated cell proliferation and CDK9-mediated disturbance of inflammatory cytokines in the progression of psoriasis, dual inhibition of CDK6 and CDK9 is expected to not only exert synergetic anti-psoriatic effects but also reduce the toxicity of single-target inhibition. In this study, on the basis of our previously discovered lead, a total of 17 final compounds were designed and synthesized for exploring additional hydrogen bond interactions with hydrophilic residues in the inner pocket of CDK6 or CDK9. Among them, 4, with dual CDK6 and CDK9 inhibitory activities, was capable to ameliorate inflammation in vitro. Furthermore, it inhibited the activation of STAT3 pathway and decreased the mRNA levels of inflammatory factors in IFN-\u03b3/TNF-\u03b1-induced HaCaT cells. These findings indicate dual CDK6 and CDK9 inhibitors may emerge as potential therapeutic agents for psoriasis."
+        }
+      ],
+      "score": 4.0
+    }
+  ],
+  "query": "Show inhibitors for EGFR, JAK2 and CDK9 under 100 nM",
+  "timestamp": "2025-01-25",
+  "total_papers": 60,
+  "queries_performed": 3
+}
