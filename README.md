@@ -23,11 +23,32 @@ A multi-tool agent that queries biological databases to find therapeutic targets
 
 ## Usage Examples
 
-| Want to...                        | Command                                                                     |
-|-----------------------------------|-----------------------------------------------------------------------------|
-| Find HIV targets                  | `python therapeutic_target_agent.py "Find host proteins that interact with HIV-1 gp120"` |
-| Find SARS-CoV-2 targets          | `python therapeutic_target_agent.py "Find host proteins that interact with SARS nsp5"` |
-| Use different LLM model           | `python therapeutic_target_agent.py "your query" --model gpt-4o`           |
+### Single Target Queries
+```bash
+# Find HIV host targets
+python therapeutic_target_agent.py "Find host proteins that interact with HIV-1 gp120"
+
+# Find ultra-potent EGFR inhibitors
+python therapeutic_target_agent.py "Find EGFR inhibitors under 10 nM"
+
+# Range-based potency filtering
+python therapeutic_target_agent.py "Find SARS-CoV-2 targets with inhibitors between 1 nM and 100 nM"
+```
+
+### Multi-Target Queries
+```bash
+# Cancer kinase targets
+python therapeutic_target_agent.py "Show inhibitors for EGFR, JAK2 and CDK9 under 100 nM"
+
+# Neurological targets
+python therapeutic_target_agent.py "Find inhibitors for BACE1, MAOB and AChE between 5 nM and 50 nM"
+```
+
+### Advanced Options
+```bash
+# Use different LLM model
+python therapeutic_target_agent.py "your query" --model gpt-4o
+```
 
 ## Output
 
